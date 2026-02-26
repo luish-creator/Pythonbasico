@@ -1,6 +1,6 @@
 from Enemigo import *
 
-class zombies(Enemigo):
+class Zombie(Enemigo):
     def _init_(self,puntos_energia=10, ataque=1):
         super()._init_(tipo_enemigo="Zombie", puntos_energia=puntos_energia,ataque=ataque)
 
